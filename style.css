@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    flex-direction: column;
+    background-color: cyan;
+}
+img{
+    width: 64px;
+    height: 64px;
+    margin: 10px;
+}
+#wraper{
+    background-color: whitesmoke;
+    margin-top: 9vh;
+    margin-inline: 40vh;
+}
+#header{
+    display: flex;
+    background-color: darkgreen;
+    align-items: center;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+#navbar, a{
+    margin-inline: 5%;
+    font-size: x-large;
+}
+#main{
+    background-color: greenyellow;
+    min-height: 60vh;
+}
+#footer{
+    position: relative;
+    background-color: green;
+    text-align: center;
+}
+#footer, h4{
+    padding-block: 0.5%;
+}
